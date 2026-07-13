@@ -1,36 +1,35 @@
 const produits = [
-
 {
 nom:"Real Madrid",
-image:"images/real-madrid.jpg.AVIF",
+image:"images/real-madrid.jpg.JPG",
 fan:6000,
 player:7000
 },
 
 {
 nom:"FC Barcelona",
-image:"images/barcelona.jpg.AVIF",
+image:"images/barcelona.jpg.JPG",
 fan:6000,
 player:7000
 },
 
 {
 nom:"PSG",
-image:"images/psg.jpg.AVIF",
+image:"images/psg.jpg.WEBP",
 fan:6000,
 player:7000
 },
 
 {
 nom:"Manchester United",
-image:"images/manchester-united.jpg.AVIF",
+image:"images/manchester-united.jpg.JPG",
 fan:6000,
 player:7000
 },
 
 {
 nom:"Liverpool",
-image:"images/liverpool.jpg.AVIF",
+image:"images/liverpool.jpg.WEBP",
 fan:6000,
 player:7000
 },
