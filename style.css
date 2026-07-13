@@ -28,8 +28,15 @@ header{
 }
 
 .logo{
-    width:170px;
-    margin-bottom:20px;
+    width:220px;
+    max-width:90%;
+    display:block;
+    margin:20px auto;
+    transition:0.3s;
+}
+
+.logo:hover{
+    transform:scale(1.05);
 }
 
 header h1{
