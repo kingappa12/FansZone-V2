@@ -41,8 +41,77 @@ fan:6000,
 player:7000
 }
 
-];
+{
+nom:"Bayern Munich",
+image:"images/bayer-munich.jpg.JPG",
+fan:6000,
+player:7000
+},
 
+{
+nom:"Manchester City",
+image:"images/manchester-city.jpg.JPG",
+fan:6000,
+player:7000
+},
+
+{
+nom:"Juventus",
+image:"images/juventus.jpg.WEBP",
+fan:6000,
+player:7000
+},
+
+{
+nom:"Napoli",
+image:"images/napoli.jpg.WEBP",
+fan:6000,
+player:7000
+},
+
+{
+nom:"Borussia Dortmund",
+image:"images/borussia-dortmund.jpg.WEBP",
+fan:6000,
+player:7000
+},
+
+{
+nom:"Tottenham",
+image:"images/tottenham.jpg.WEBP",
+fan:6000,
+player:7000
+},
+
+{
+nom:"Chelsea",
+image:"images/chelsea.jpg.WEBP",
+fan:6000,
+player:7000
+},
+
+{
+nom:"AC Milan",
+image:"images/ac-milan.jpg.WEBP",
+fan:6000,
+player:7000
+},
+
+{
+nom:"Atlético Madrid",
+image:"images/atletico-madrid.jpg.JPG",
+fan:6000,
+player:7000
+},
+
+{
+nom:"Inter Milan",
+image:"images/inter-milan.jpg.JPG",
+fan:6000,
+player:7000
+},
+
+  ];
 const container = document.getElementById("products");
 
 produits.forEach(p=>{
