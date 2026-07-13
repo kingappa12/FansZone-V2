@@ -57,6 +57,8 @@ container.innerHTML += `
 
 <h3>${p.nom}</h3>
 
+<span class="badge">🔥 Best Seller</span>
+
 <div class="stars">★★★★★</div>
 
 <p class="price">👕 Version Fan : ${p.fan} FCFA</p>
