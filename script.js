@@ -111,7 +111,7 @@ fan:6000,
 player:7000
 },
 
-  ];
+];
 const container = document.getElementById("products");
 
 produits.forEach(p=>{
