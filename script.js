@@ -251,9 +251,10 @@ image:"images/ajax.jpg.JPG",
 fan:6000,
 player:7000
 }
+
+];
 // ===== PANIER =====
 let panier = [];
-];
 
 const container = document.getElementById("products");
 
