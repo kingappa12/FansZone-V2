@@ -110,7 +110,7 @@ nom:"Inter Milan",
 image:"images/inter-milan.jpg.JPG",
 fan:6000,
 player:7000
-}
+},
 
 {
 nom:"Sevilla",
@@ -142,7 +142,7 @@ player:7000
 
 {
 nom:"Athletic Bilbao",
-image:"images/athletic-bilbao.jog.JPG",
+image:"images/athletic-bilbao.jpg.JPG",
 fan:6000,
 player:7000
 },
