@@ -39,7 +39,7 @@ nom:"Arsenal",
 image:"images/arsenal.jpg.AVIF",
 fan:6000,
 player:7000
-}
+},
 
 {
 nom:"Bayern Munich",
