@@ -251,6 +251,8 @@ image:"images/ajax.jpg.JPG",
 fan:6000,
 player:7000
 }
+// ===== PANIER =====
+let panier = [];
 ];
 
 const container = document.getElementById("products");
@@ -297,26 +299,19 @@ container.innerHTML += `
 
 function commander(maillot){
 
-const taille = document.getElementById(maillot).value;
+    const taille = document.getElementById(maillot).value;
 
-const message =
-`Bonjour Fans Zone 👋
+    const produit = produits.find(p => p.nom === maillot);
 
-Je souhaite commander :
+    panier.push({
+        nom: maillot,
+        taille: taille,
+        prix: produit.fan
+    });
 
-🏆 ${maillot}
-
-📏 Taille : ${taille}
-
-Merci.`;
-
-window.open(
-`https://wa.me/22374878819?text=${encodeURIComponent(message)}`,
-"_blank"
-);
+    afficherPanier();
 
 }
-
 const recherche = document.getElementById("searchInput");
 
 recherche.addEventListener("keyup", () => {
@@ -332,5 +327,68 @@ c.style.display = c.innerText.toLowerCase().includes(texte)
 : "none";
 
 });
+
+});
+function afficherPanier(){
+
+    const cartItems = document.getElementById("cart-items");
+    const cartTotal = document.getElementById("cart-total");
+
+    cartItems.innerHTML = "";
+
+    let total = 0;
+
+    panier.forEach(item=>{
+
+        total += item.prix;
+
+        cartItems.innerHTML += `
+            <div class="cart-item">
+                <div>
+                    <strong>${item.nom}</strong><br>
+                    Taille : ${item.taille}
+                </div>
+
+                <div class="cart-price">
+                    ${item.prix} FCFA
+                </div>
+            </div>
+        `;
+
+    });
+
+    if(panier.length===0){
+
+        cartItems.innerHTML="<p>Votre panier est vide.</p>";
+
+    }
+
+    cartTotal.innerHTML="Total : "+total+" FCFA";
+
+}
+
+document.getElementById("cart-btn").addEventListener("click",()=>{
+
+    if(panier.length===0){
+
+        alert("Votre panier est vide.");
+
+        return;
+
+    }
+
+    let message="Bonjour Fans Zone 👋%0A%0AJe souhaite commander :%0A%0A";
+
+    panier.forEach(item=>{
+
+        message += `🏆 ${item.nom} - Taille ${item.taille} - ${item.prix} FCFA%0A`;
+
+    });
+
+    const total = panier.reduce((s,p)=>s+p.prix,0);
+
+    message += `%0A💰 Total : ${total} FCFA`;
+
+    window.open(`https://wa.me/22374878819?text=${message}`,"_blank");
 
 });
