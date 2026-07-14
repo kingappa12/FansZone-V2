@@ -286,3 +286,52 @@ width:120px;
     font-size:12px;
     margin:8px 0;
 }
+/* ===== PANIER ===== */
+
+.cart-box{
+    max-width:900px;
+    margin:50px auto;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.cart-box h2{
+    margin-bottom:20px;
+}
+
+.cart-item{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:12px 0;
+    border-bottom:1px solid #ddd;
+}
+
+.cart-price{
+    color:#d90429;
+    font-weight:bold;
+}
+
+#cart-total{
+    margin-top:20px;
+    color:#25D366;
+}
+
+#cart-btn{
+    margin-top:20px;
+    width:100%;
+    padding:16px;
+    border:none;
+    background:#25D366;
+    color:white;
+    font-size:18px;
+    border-radius:10px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+#cart-btn:hover{
+    background:#1da851;
+}
