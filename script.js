@@ -393,3 +393,15 @@ document.getElementById("cart-btn").addEventListener("click",()=>{
     window.open(`https://wa.me/22374878819?text=${message}`,"_blank");
 
 });
+
+function togglePanier(){
+
+    const panier = document.querySelector(".cart-box");
+
+    if(panier.style.display === "block"){
+        panier.style.display = "none";
+    }else{
+        panier.style.display = "block";
+    }
+
+}
