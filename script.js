@@ -317,14 +317,15 @@ function commander(maillot){
         prix = produit.player;
     }
 
-    panier.push({
+   panier.push({
 
-        nom: maillot,
-        taille: taille,
-        version: version,
-        prix: prix
+nom: maillot,
+taille: taille,
+version: version,
+prix: prix,
+quantite:1
 
-    });
+});
 
     afficherPanier();
 
@@ -355,27 +356,55 @@ function afficherPanier(){
 
     let total = 0;
 
-    panier.forEach(item=>{
+    panier.forEach((item,index)=>{
 
-        total += item.prix;
+        total += item.prix * (item.quantite || 1);
 
         cartItems.innerHTML += `
-            <div class="cart-item">
-                <div>
-                    <strong>${item.nom}</strong><br>
 
-Version : ${item.version=="fan" ? "Fan" : "Player"}<br>
+        <div class="cart-item">
 
-Taille : ${item.taille}
-                </div>
+            <div>
 
-                <div class="cart-price">
-                    ${item.prix} FCFA
-                </div>
+                <strong>${item.nom}</strong><br>
+
+                ${item.version=="fan"?"👕 Fan":"⭐ Player"}<br>
+
+                Taille : ${item.taille}
+
             </div>
+
+            <div>
+
+                <button onclick="moins(${index})">➖</button>
+
+                <b>${item.quantite || 1}</b>
+
+                <button onclick="plus(${index})">➕</button>
+
+                <br><br>
+
+                <b>${item.prix*(item.quantite||1)} FCFA</b>
+
+            </div>
+
+        </div>
+
         `;
 
     });
+
+    if(panier.length===0){
+
+        cartItems.innerHTML="<p>Votre panier est vide.</p>";
+
+    }
+
+    cartTotal.innerHTML="💰 Total : "+total+" FCFA";
+
+    document.getElementById("cart-count").innerText=panier.length;
+
+}
 
     if(panier.length===0){
 
