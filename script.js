@@ -274,20 +274,25 @@ container.innerHTML += `
 
 <div class="stars">★★★★★</div>
 
-<p class="price">👕 Version Fan : ${p.fan} FCFA</p>
+<label>Version :</label>
 
-<p class="price">⭐ Version Player : ${p.player} FCFA</p>
+<select id="version-${p.nom}">
+    <option value="fan">👕 Fan - ${p.fan} FCFA</option>
+    <option value="player">⭐ Player - ${p.player} FCFA</option>
+</select>
+
+<label>Taille :</label>
 
 <select id="${p.nom}">
-<option>S</option>
-<option>M</option>
-<option>L</option>
-<option>XL</option>
-<option>XXL</option>
+    <option>S</option>
+    <option>M</option>
+    <option>L</option>
+    <option>XL</option>
+    <option>XXL</option>
 </select>
 
 <a class="buy" onclick="commander('${p.nom}')">
-🛒 Commander
+🛒 Ajouter au panier
 </a>
 
 </div>
