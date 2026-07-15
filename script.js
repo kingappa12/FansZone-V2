@@ -365,7 +365,7 @@ function afficherPanier(){
     }
 
     cartTotal.innerHTML="Total : "+total+" FCFA";
-
+document.getElementById("cart-count").innerText = panier.length;
 }
 
 document.getElementById("cart-btn").addEventListener("click",()=>{
