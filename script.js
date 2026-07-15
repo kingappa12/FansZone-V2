@@ -307,12 +307,23 @@ function commander(maillot){
 
     const taille = document.getElementById(maillot).value;
 
-    const produit = produits.find(p => p.nom === maillot);
+    const version = document.getElementById("version-"+maillot).value;
+
+    const produit = produits.find(p=>p.nom===maillot);
+
+    let prix = produit.fan;
+
+    if(version==="player"){
+        prix = produit.player;
+    }
 
     panier.push({
+
         nom: maillot,
         taille: taille,
-        prix: produit.fan
+        version: version,
+        prix: prix
+
     });
 
     afficherPanier();
@@ -352,7 +363,10 @@ function afficherPanier(){
             <div class="cart-item">
                 <div>
                     <strong>${item.nom}</strong><br>
-                    Taille : ${item.taille}
+
+Version : ${item.version=="fan" ? "Fan" : "Player"}<br>
+
+Taille : ${item.taille}
                 </div>
 
                 <div class="cart-price">
