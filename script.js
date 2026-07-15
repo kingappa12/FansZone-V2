@@ -461,7 +461,8 @@ document.getElementById("order-btn").addEventListener("click", () => {
     let message = "Bonjour Fans Zone 👋\n\nJe souhaite commander :\n\n";
 
     panier.forEach(item => {
-        message += `🏆 ${item.nom} - Taille ${item.taille} - ${item.prix} FCFA\n`;
+        message += `🏆 ${item.nom}
+x${item.quantite} - Taille ${item.taille} - ${item.prix*item.quantite} FCFA`;
     });
 
     const total = panier.reduce((s, p) => s + p.prix, 0);
@@ -474,3 +475,24 @@ document.getElementById("order-btn").addEventListener("click", () => {
     );
 
 });
+function plus(index){
+
+    panier[index].quantite++;
+
+    afficherPanier();
+
+}
+
+function moins(index){
+
+    panier[index].quantite--;
+
+    if(panier[index].quantite<=0){
+
+        panier.splice(index,1);
+
+    }
+
+    afficherPanier();
+
+}
