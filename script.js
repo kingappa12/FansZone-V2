@@ -368,8 +368,6 @@ function afficherPanier(){
 document.getElementById("cart-count").innerText = panier.length;
 }
 
-document.getElementById("cart-btn").addEventListener("click",()=>{
-
     if(panier.length===0){
 
         alert("Votre panier est vide.");
@@ -405,3 +403,26 @@ function togglePanier(){
     }
 
 }
+document.getElementById("order-btn").addEventListener("click", () => {
+
+    if (panier.length === 0) {
+        alert("Votre panier est vide.");
+        return;
+    }
+
+    let message = "Bonjour Fans Zone 👋\n\nJe souhaite commander :\n\n";
+
+    panier.forEach(item => {
+        message += `🏆 ${item.nom} - Taille ${item.taille} - ${item.prix} FCFA\n`;
+    });
+
+    const total = panier.reduce((s, p) => s + p.prix, 0);
+
+    message += `\n💰 Total : ${total} FCFA`;
+
+    window.open(
+        `https://wa.me/22374878819?text=${encodeURIComponent(message)}`,
+        "_blank"
+    );
+
+});
