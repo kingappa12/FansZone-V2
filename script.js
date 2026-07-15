@@ -406,39 +406,23 @@ function afficherPanier(){
 
 }
 
-    if(panier.length===0){
-
-        cartItems.innerHTML="<p>Votre panier est vide.</p>";
-
-    }
-
-    cartTotal.innerHTML="Total : "+total+" FCFA";
-document.getElementById("cart-count").innerText = panier.length;
-}
-
-    if(panier.length===0){
-
-        alert("Votre panier est vide.");
-
-        return;
-
-    }
 
     let message="Bonjour Fans Zone 👋%0A%0AJe souhaite commander :%0A%0A";
 
-    panier.forEach(item=>{
+    panier.forEach(item => {
 
-        message += `🏆 ${item.nom} - Taille ${item.taille} - ${item.prix} FCFA%0A`;
+    message += `🏆 ${item.nom}
+x${item.quantite} - Taille ${item.taille} - ${item.prix * item.quantite} FCFA
 
-    });
+`;
 
-    const total = panier.reduce((s,p)=>s+p.prix,0);
+});
+
+  const total = panier.reduce((s, p) => s + (p.prix * p.quantite), 0);
 
     message += `%0A💰 Total : ${total} FCFA`;
 
     window.open(`https://wa.me/22374878819?text=${message}`,"_blank");
-
-});
 
 function togglePanier(){
 
