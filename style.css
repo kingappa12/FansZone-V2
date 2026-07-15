@@ -335,3 +335,26 @@ width:120px;
 #cart-btn:hover{
     background:#1da851;
 }
+.cart-floating{
+    position:fixed;
+    bottom:95px;
+    right:20px;
+    width:65px;
+    height:65px;
+    background:#111;
+    color:white;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:22px;
+    font-weight:bold;
+    cursor:pointer;
+    box-shadow:0 8px 20px rgba(0,0,0,.3);
+    z-index:999;
+}
+
+#cart-count{
+    margin-left:4px;
+    color:#25D366;
+}
