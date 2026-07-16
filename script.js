@@ -755,51 +755,53 @@ let panier = [];
 
 const container = document.getElementById("products");
 
-produits.forEach(p => {
+function afficherProduits(liste){
 
-container.innerHTML += `
+    container.innerHTML = "";
 
-<div class="card">
+    liste.forEach(p => {
 
-<img src="${p.image}" alt="${p.nom}">
+        container.innerHTML += `
+        <div class="card" data-type="${p.type}" data-continent="${p.continent}">
+            <img src="${p.image}" alt="${p.nom}">
 
-<div class="card-content">
+            <div class="card-content">
 
-<h3>${p.nom}</h3>
+                <h3>${p.nom}</h3>
 
-<span class="badge">🔥 Best Seller</span>
+                <span class="badge">🔥 Best Seller</span>
 
-<div class="stars">★★★★★</div>
+                <div class="stars">★★★★★</div>
 
-<label>Version :</label>
+                <label>Version :</label>
 
-<select id="version-${p.nom}">
-    <option value="fan">👕 Fan - ${p.fan} FCFA</option>
-    <option value="player">⭐ Player - ${p.player} FCFA</option>
-</select>
+                <select id="version-${p.nom}">
+                    <option value="fan">👕 Fan - ${p.fan} FCFA</option>
+                    <option value="player">⭐ Player - ${p.player} FCFA</option>
+                </select>
 
-<label>Taille :</label>
+                <label>Taille :</label>
 
-<select id="${p.nom}">
-    <option>S</option>
-    <option>M</option>
-    <option>L</option>
-    <option>XL</option>
-    <option>XXL</option>
-</select>
+                <select id="${p.nom}">
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                    <option>XL</option>
+                    <option>XXL</option>
+                </select>
 
-<a class="buy" onclick="commander('${p.nom}')">
-🛒 Ajouter au panier
-</a>
+                <a class="buy" onclick="commander('${p.nom}')">
+                    🛒 Ajouter au panier
+                </a>
 
-</div>
+            </div>
 
-</div>
+        </div>
+        `;
+    });
+}
 
-`;
-
-});
-
+afficherProduits(produits);
 function commander(maillot){
 
     const taille = document.getElementById(maillot).value;
