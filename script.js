@@ -535,7 +535,7 @@ player:7000
 
 {
 nom:"Angleterre",
-image:"images/angleterre.jpg.WEBP",
+image:"images/anglettere.jpg.WEBP",
 fan:6000,
 player:7000
 },
