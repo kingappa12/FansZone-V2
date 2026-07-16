@@ -4,7 +4,7 @@ const produits = [
 nom:"Real Madrid",
 image:"images/real-madrid.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -13,7 +13,7 @@ continent:"europe"
 nom:"FC Barcelona",
 image:"images/barcelona.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -22,7 +22,7 @@ continent:"europe"
 nom:"PSG",
 image:"images/psg.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -31,7 +31,7 @@ continent:"europe"
 nom:"Manchester United",
 image:"images/manchester-united.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -40,7 +40,7 @@ continent:"europe"
 nom:"Liverpool",
 image:"images/liverpool.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -49,7 +49,7 @@ continent:"europe"
 nom:"Arsenal",
 image:"images/arsenal.jpg.AVIF",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -58,7 +58,7 @@ continent:"europe"
 nom:"Bayern Munich",
 image:"images/bayer-munich.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -67,7 +67,7 @@ continent:"europe"
 nom:"Manchester City",
 image:"images/manchester-city.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -76,7 +76,7 @@ continent:"europe"
 nom:"Juventus",
 image:"images/juventus.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -85,7 +85,7 @@ continent:"europe"
 nom:"Napoli",
 image:"images/napoli.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -94,7 +94,7 @@ continent:"europe"
 nom:"Borussia Dortmund",
 image:"images/borussia-dortmund.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -103,7 +103,7 @@ continent:"europe"
 nom:"Tottenham",
 image:"images/tottenham.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -112,7 +112,7 @@ continent:"europe"
 nom:"Chelsea",
 image:"images/chelsea.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -121,7 +121,7 @@ continent:"europe"
 nom:"AC Milan",
 image:"images/ac-milan.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -130,7 +130,7 @@ continent:"europe"
 nom:"Atlético Madrid",
 image:"images/atletico-madrid.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -139,7 +139,7 @@ continent:"europe"
 nom:"Inter Milan",
 image:"images/inter-milan.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -148,7 +148,7 @@ continent:"europe"
 nom:"Sevilla",
 image:"images/seville.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -157,7 +157,7 @@ continent:"europe"
 nom:"Valencia",
 image:"images/valence.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -166,7 +166,7 @@ continent:"europe"
 nom:"Villarreal",
 image:"images/villa-real.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -175,7 +175,7 @@ continent:"europe"
 nom:"Real Betis",
 image:"images/real-betis.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -184,7 +184,7 @@ continent:"europe"
 nom:"Athletic Bilbao",
 image:"images/athletic-bilbao.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -193,7 +193,7 @@ continent:"europe"
 nom:"Newcastle United",
 image:"images/newcastle.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -202,7 +202,7 @@ continent:"europe"
 nom:"Aston Villa",
 image:"images/aston-villa.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -211,7 +211,7 @@ continent:"europe"
 nom:"West Ham",
 image:"images/west-ham.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -220,7 +220,7 @@ continent:"europe"
 nom:"Brighton",
 image:"images/brighton.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -229,7 +229,7 @@ continent:"europe"
 nom:"AS Roma",
 image:"images/roma.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -238,7 +238,7 @@ continent:"europe"
 nom:"Lazio",
 image:"images/lazio.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -247,7 +247,7 @@ continent:"europe"
 nom:"Atalanta",
 image:"images/atalanta.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -256,7 +256,7 @@ continent:"europe"
 nom:"Fiorentina",
 image:"images/fiorentina.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -265,7 +265,7 @@ continent:"europe"
 nom:"Bayer Leverkusen",
 image:"images/leverkusen.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -274,7 +274,7 @@ continent:"europe"
 nom:"RB Leipzig",
 image:"images/rb-leipzig.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -283,7 +283,7 @@ continent:"europe"
 nom:"Marseille",
 image:"images/marseille.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -292,7 +292,7 @@ continent:"europe"
 nom:"Lyon",
 image:"images/lyon.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -301,7 +301,7 @@ continent:"europe"
 nom:"Monaco",
 image:"images/monaco.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -310,7 +310,7 @@ continent:"europe"
 nom:"Lille",
 image:"images/lille.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -319,7 +319,7 @@ continent:"europe"
 nom:"Ajax",
 image:"images/ajax.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -328,7 +328,7 @@ continent:"europe"
 nom:"Nice",
 image:"images/nice.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -337,7 +337,7 @@ continent:"europe"
 nom:"Crystal Palace",
 image:"images/crystal-palace.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -346,7 +346,7 @@ continent:"europe"
 nom:"Wolves",
 image:"images/wolves.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -355,7 +355,7 @@ continent:"europe"
 nom:"Girona",
 image:"images/girona.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -364,7 +364,7 @@ continent:"europe"
 nom:"Stuttgart",
 image:"images/stuttgart.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -373,7 +373,7 @@ continent:"europe"
 nom:"Celta Vigo",
 image:"images/celta-vigo.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -382,7 +382,7 @@ continent:"europe"
 nom:"Torino",
 image:"images/torino.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -391,7 +391,7 @@ continent:"europe"
 nom:"Strasbourg",
 image:"images/strasbourg.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -400,7 +400,7 @@ continent:"europe"
 nom:"Rennes",
 image:"images/rennes.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -409,7 +409,7 @@ continent:"europe"
 nom:"Wolfsburg",
 image:"images/wolfsburg.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -418,7 +418,7 @@ continent:"europe"
 nom:"Everton",
 image:"images/everton.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -427,7 +427,7 @@ continent:"europe"
 nom:"Osasuna",
 image:"images/osasuna.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -436,7 +436,7 @@ continent:"europe"
 nom:"Lens",
 image:"images/lens.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -445,7 +445,7 @@ continent:"europe"
 nom:"Bologne",
 image:"images/bologne.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -454,7 +454,7 @@ continent:"europe"
 nom:"Udinese",
 image:"images/udinese.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -463,7 +463,7 @@ continent:"europe"
 nom:"Brentford",
 image:"images/brentford.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -472,7 +472,7 @@ continent:"europe"
 nom:"Real Sociedad",
 image:"images/real-sociedad.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -481,7 +481,7 @@ continent:"europe"
 nom:"Nottingham Forest",
 image:"images/nottingham-forest.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -490,7 +490,7 @@ continent:"europe"
 nom:"Fulham",
 image:"images/fulham.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -499,7 +499,7 @@ continent:"europe"
 nom:"Bournemouth",
 image:"images/bournemouth.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"club",
 continent:"europe"
 },
@@ -509,7 +509,7 @@ continent:"europe"
 nom:"Nigeria",
 image:"images/nigeria.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"selection",
 continent:"afrique"
 },
@@ -518,7 +518,7 @@ continent:"afrique"
 nom:"Sénégal",
 image:"images/senegal.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"selection",
 continent:"afrique"
 },
@@ -527,7 +527,7 @@ continent:"afrique"
 nom:"Cameroun",
 image:"images/cameroun.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"selection",
 continent:"afrique"
 },
@@ -536,7 +536,7 @@ continent:"afrique"
 nom:"Algérie",
 image:"images/algerie.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"selection",
 continent:"afrique"
 },
@@ -545,7 +545,7 @@ continent:"afrique"
 nom:"Ghana",
 image:"images/ghana.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"selection",
 continent:"afrique"
 },
@@ -554,7 +554,7 @@ continent:"afrique"
 nom:"Côte d'Ivoire",
 image:"images/cote-divoire.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"selection",
 continent:"afrique"
 },
@@ -563,7 +563,7 @@ continent:"afrique"
 nom:"Mali",
 image:"images/mali.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"selection",
 continent:"afrique"
 },
@@ -572,7 +572,7 @@ continent:"afrique"
 nom:"Belgique",
 image:"images/belgique.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"selection",
 continent:"europe"
 },
@@ -581,7 +581,7 @@ continent:"europe"
 nom:"Maroc",
 image:"images/maroc.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"selection",
 continent:"afrique"
 },
@@ -590,7 +590,7 @@ continent:"afrique"
 nom:"Allemagne",
 image:"images/allemagne.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"selection",
 continent:"europe"
 },
@@ -599,7 +599,7 @@ continent:"europe"
 nom:"Pays-Bas",
 image:"images/pays-bas.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"selection",
 continent:"europe"
 },
@@ -608,7 +608,7 @@ continent:"europe"
 nom:"Corée du Sud",
 image:"images/coree-du-sud.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"selection",
 continent:"asie"
 },
@@ -617,7 +617,7 @@ continent:"asie"
 nom:"Croatie",
 image:"images/croatie.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"selection",
 continent:"europe"
 },
@@ -626,7 +626,7 @@ continent:"europe"
 nom:"Japon",
 image:"images/japon.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"selection",
 continent:"asie"
 },
@@ -635,7 +635,7 @@ continent:"asie"
 nom:"Arabie Saoudite",
 image:"images/arabie-saoudite.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"selection",
 continent:"asie"
 },
@@ -644,7 +644,7 @@ continent:"asie"
 nom:"Espagne",
 image:"images/espagne.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"selection",
 continent:"europe"
 },
@@ -653,7 +653,7 @@ continent:"europe"
 nom:"Portugal",
 image:"images/portugal.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"selection",
 continent:"europe"
 },
@@ -662,7 +662,7 @@ continent:"europe"
 nom:"Mexique",
 image:"images/mexique.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"selection",
 continent:"amerique"
 },
@@ -671,7 +671,7 @@ continent:"amerique"
 nom:"Italie",
 image:"images/italie.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"selection",
 continent:"europe"
 },
@@ -680,7 +680,7 @@ continent:"europe"
 nom:"France",
 image:"images/france.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"selection",
 continent:"europe"
 },
@@ -689,7 +689,7 @@ continent:"europe"
 nom:"Angleterre",
 image:"images/anglettere.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"selection",
 continent:"europe"
 },
@@ -698,7 +698,7 @@ continent:"europe"
 nom:"Brésil",
 image:"images/bresil.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"selection",
 continent:"amerique"
 },
@@ -707,7 +707,7 @@ continent:"amerique"
 nom:"Colombie",
 image:"images/colombie.jpg.JPG",
 fan:6000,
-player:7000
+player:7000,
 type:"selection",
 continent:"amerique"
 },
@@ -716,7 +716,7 @@ continent:"amerique"
 nom:"Uruguay",
 image:"images/uruguay.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"selection",
 continent:"amerique"
 },
@@ -725,7 +725,7 @@ continent:"amerique"
 nom:"Égypte",
 image:"images/egypte.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"selection",
 continent:"afrique"
 },
@@ -734,7 +734,7 @@ continent:"afrique"
 nom:"Tunisie",
 image:"images/tunisie.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"selection",
 continent:"afrique"
 },
@@ -743,7 +743,7 @@ continent:"afrique"
 nom:"Argentine",
 image:"images/argentine.jpg.WEBP",
 fan:6000,
-player:7000
+player:7000,
 type:"selection",
 continent:"amerique"
 },
