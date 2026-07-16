@@ -54,15 +54,23 @@ placeholder="🔍 Rechercher un club ou une sélection...">
 
 </section>
 
-<section class="categories">
+<div class="categories">
 
-<button>Tous</button>
-<button>Europe</button>
-<button>Afrique</button>
-<button>Amérique</button>
-<button>Asie</button>
+<button onclick="filtrer('tous')">Tous</button>
 
-</section>
+<button onclick="filtrer('club')">Clubs</button>
+
+<button onclick="filtrer('selection')">Sélections</button>
+
+<button onclick="filtrer('europe')">Europe</button>
+
+<button onclick="filtrer('afrique')">Afrique</button>
+
+<button onclick="filtrer('amerique')">Amérique</button>
+
+<button onclick="filtrer('asie')">Asie</button>
+
+</div>
 
 <section id="produits">
 
