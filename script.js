@@ -250,7 +250,7 @@ nom:"Ajax",
 image:"images/ajax.jpg.JPG",
 fan:6000,
 player:7000
-}
+},
 
 {
 nom:"Nice",
@@ -547,23 +547,7 @@ function afficherPanier(){
 }
 
 
-    let message="Bonjour Fans Zone 👋%0A%0AJe souhaite commander :%0A%0A";
-
-    panier.forEach(item => {
-
-    message += `🏆 ${item.nom}
-x${item.quantite} - Taille ${item.taille} - ${item.prix * item.quantite} FCFA
-
-`;
-
-});
-
-  const total = panier.reduce((s, p) => s + (p.prix * p.quantite), 0);
-
-    message += `%0A💰 Total : ${total} FCFA`;
-
-    window.open(`https://wa.me/22374878819?text=${message}`,"_blank");
-
+   
 function togglePanier(){
 
     const panier = document.querySelector(".cart-box");
@@ -589,7 +573,7 @@ document.getElementById("order-btn").addEventListener("click", () => {
 x${item.quantite} - Taille ${item.taille} - ${item.prix*item.quantite} FCFA`;
     });
 
-    const total = panier.reduce((s, p) => s + p.prix, 0);
+   const total = panier.reduce((s, p) => s + (p.prix * p.quantite), 0);
 
     message += `\n💰 Total : ${total} FCFA`;
 
