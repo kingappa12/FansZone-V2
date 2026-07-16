@@ -542,7 +542,7 @@ player:7000
 
 {
 nom:"Brésil",
-image:"images/bresil.jpg.WEBP",
+image:"images/bresil.jpg.JPG",
 fan:6000,
 player:7000
 },
