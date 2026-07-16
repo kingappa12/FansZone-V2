@@ -794,3 +794,28 @@ function moins(index){
     afficherPanier();
 
 }
+function filtrer(categorie){
+
+    const cartes = document.querySelectorAll(".card");
+
+    cartes.forEach((carte,index)=>{
+
+        const produit = produits[index];
+
+        if(
+            categorie==="tous" ||
+            produit.type===categorie ||
+            produit.continent===categorie
+        ){
+
+            carte.style.display="block";
+
+        }else{
+
+            carte.style.display="none";
+
+        }
+
+    });
+
+}
