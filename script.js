@@ -918,7 +918,7 @@ function togglePanier(){
     }
 
 }
-document.getElementById("order-btn").addEventListener("click", () => {
+document.getElementById("order-btn").addEventListener("click", function () {
 
     if (panier.length === 0) {
         alert("Votre panier est vide.");
@@ -929,17 +929,21 @@ document.getElementById("order-btn").addEventListener("click", () => {
 
     panier.forEach(item => {
         message += `🏆 ${item.nom}
-x${item.quantite} - Taille ${item.taille} - ${item.prix*item.quantite} FCFA`;
+Version : ${item.version}
+Taille : ${item.taille}
+Quantité : ${item.quantite}
+Prix : ${item.prix * item.quantite} FCFA
+
+`;
     });
 
-   const total = panier.reduce((s, p) => s + (p.prix * p.quantite), 0);
+    const total = panier.reduce((s, item) => s + (item.prix * item.quantite), 0);
 
-    message += `\n💰 Total : ${total} FCFA`;
+    message += `💰 Total : ${total} FCFA`;
 
-    window.open(
-        `https://wa.me/22374878819?text=${encodeURIComponent(message)}`,
-        "_blank"
-    );
+    const url = "https://wa.me/22374878819?text=" + encodeURIComponent(message);
+
+    window.open(url, "_blank");
 
 });
 function plus(index){
